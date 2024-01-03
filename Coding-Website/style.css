@@ -1,0 +1,50 @@
+body {
+  margin: 0px; 
+  padding: 0px;
+  background-color: #021936;
+  text-align: center;
+}
+
+canvas {
+  display: inline;
+}
+
+h1{
+  font-family: "Courier New"; 
+  text-align:center; 
+  padding: 1%; ; 
+  background:#01021e;
+  color: #fff; 
+  margin-left: 2em ;
+  margin-right: 2em ;
+  /* This creates rounded corners*/
+  border-radius: 10px;
+}
+
+p {
+    text-align:center; 
+    font-family:"Courier New";
+  color: #fff
+}
+
+a {
+  text-align: left; 
+  color: #0ee127;
+  font-family:"Courier New";
+}
+
+/* li stands for a list. */ 
+li{
+  /* This will allow all list items on one line. Making the navigation bar look horizontal. */ 
+   display: inline;
+  /* This will add a border around all list items */ 
+   border: 2px solid #a519f0;
+   background: #230a85; 
+   margin: 6px; 
+   padding: 12px; 
+   border-radius: 5px;
+}
+/* Hover means this CSS will run when the user hovers their mouse over this element. It usually helps to show that something is clickable.  */
+li:hover{
+  background: #8d07d5; 
+}
